@@ -1,0 +1,46 @@
+/* noto-serif-regular - latin */
+@font-face {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/noto-serif-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/noto-serif-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/noto-serif-v20-latin-regular.ttf') format('truetype') /* Safari, Android, iOS */
+}
+  /* noto-serif-700 - latin */
+@font-face {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/noto-serif-v20-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/noto-serif-v20-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/noto-serif-v20-latin-700.ttf') format('truetype') /* Safari, Android, iOS */
+}
+/* spline-sans-regular - latin */
+@font-face {
+    font-family: 'Spline Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/spline-sans-v1-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/spline-sans-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/spline-sans-v1-latin-regular.ttf') format('truetype') /* Safari, Android, iOS */
+}
+  /* spline-sans-500 - latin */
+@font-face {
+    font-family: 'Spline Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/spline-sans-v1-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/spline-sans-v1-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/spline-sans-v1-latin-500.ttf') format('truetype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: "Avenir LT Pro"; 
+    src: url("../fonts/Avenir-LT-Pro.eot"); 
+    src: url("../fonts/Avenir-LT-Pro.woff") format("woff"), 
+         url("../fonts/Avenir-LT-Pro.ttf") format("truetype")
+}

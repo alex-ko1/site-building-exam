@@ -1,0 +1,28 @@
+.block-views-blockview-clients-block-1 {
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    font-family: 'Avenir LT Pro';
+    &>h2 {
+        @include alingnment;
+        width: 98%;
+        text-align: center;
+        font-size: 1.75rem;
+        display: flex;
+        gap: 14px;
+        margin-bottom: 70px;
+        &::before,
+        &::after {
+            @include line-title;
+        }
+    }
+    &>div {
+        display: none;
+    }
+    .views-field-field-clients-image {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}

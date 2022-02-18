@@ -1,0 +1,164 @@
+.block-views-blockview-projects-block-1 {
+    text-transform: uppercase;
+    margin-top: 106px;
+    font-family: 'Avenir LT Pro';
+    &>h2 {
+        @include alingnment;
+        text-align: center;
+        font-size: 1.75rem;
+        display: flex;
+        gap: 10px;
+        &::before,
+        &::after {
+            @include line-title;
+        }
+    }
+    &>div:last-child {
+        margin-top: 18px;
+        padding-top: 69px;
+        background: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.1), #fff 3px, #fff 10px, #fff 0px);
+    }
+    .view-view-projects {
+        @include alingnment;
+        a {
+            text-decoration: none;
+        }
+        .view-content {
+            text-align: center;
+            .views-col {
+                border-bottom: 1px solid #373645;
+                padding-bottom: 12px;
+                background-color: #fff;
+                width: 23.3% !important;
+                margin-left: 20px;
+                .views-field-field-projects-image {
+                    img {
+                        height: 290px;
+                        width: 290px;
+                    }
+                }
+            }
+            .col-4 {
+                margin-right: 0;
+            }
+            .views-field.views-field-title {
+                margin: 32px 0 3px;
+                a {
+                    font-size: 1.5rem;
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+            .views-field-view-node {
+                span {
+                    display: inline-block;
+                    margin-top: 17px;
+                    background-color: #373645;
+                    //width: 98px;
+                    //margin: 0 auto;
+                    padding: 3px 0;
+                    border-radius: 3px;
+                    a {
+                        color: #fff;
+                        padding: 6px 10px;
+                    }
+                }
+            }
+            @media (max-width:1260px) {
+                .views-col {
+                    width: 22% !important;
+                    //border-bottom: none;
+                    //background-color: transparent;
+                    .views-field.views-field-title {
+                        a {
+                            font-size: 1.3rem;
+                        }
+                    }
+                    .views-field-field-projects-image {
+                        height: auto;
+                        img {
+                            height: 22vw;
+                        }
+                    }
+                }
+            }
+            @media (max-width:950px) {
+                .views-col {
+                    display: block;
+                    width: 46% !important;
+                    margin-bottom: 20px;
+                    border-bottom: none;
+                    background-color: transparent;
+                    .views-field-field-projects-image {
+                        img {
+                            height: 35vw;
+                        }
+                    }
+                }
+            }
+            @media (max-width:520px) {
+                .views-col {
+                    width: 98% !important;
+                    margin-left: 0;
+                    .views-field-field-projects-image {
+                        img {
+                            height: 55vw;
+                        }
+                    }
+                }
+            }
+            @media (max-width:460px) {
+                .views-field-field-projects-image {
+                    img {
+                        height: 70vw;
+                    }
+                }
+            }
+        }
+        nav {
+            ul.pagination {
+                gap: 10px;
+                margin-top: 40px;
+                li a {
+                    border-radius: 20px;
+                    color: #646464;
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+                .page-item.active .page-link {
+                    background-color: #646464;
+                    border-color: transparent;
+                    color: #fff;
+                }
+                .page-item .page-link {
+                    &:hover {
+                        background-color: #646464;
+                    }
+                }
+                .page-link {
+                    background-color: transparent;
+                    border: none;
+                }
+                li.disabled {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+.views-field-field-projects-term {
+    a[href*="/taxonomy/term/7"] {
+        color: #1BBC9B;
+    }
+    a[href*="/taxonomy/term/8"] {
+        color: #9B58B5;
+    }
+    a[href*="/taxonomy/term/9"] {
+        color: #E84C3D;
+    }
+    a[href*="/taxonomy/term/10"] {
+        color: #32ADE1;
+    }
+}

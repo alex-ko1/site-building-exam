@@ -1,0 +1,67 @@
+.block-views-blockview-services-block-1{
+    text-transform: uppercase;
+    margin-top: 92px;
+    font-family: 'Spline Sans';
+    &>h2{
+        text-align: center;
+        margin-bottom: 92px;
+        display: flex;
+        gap: 10px;
+        &::before,
+        &::after{
+            @include line-title;
+
+        }
+    }
+    .view-view-services{
+        .view-content{
+            text-align: center;
+            .views-row div:last-child{
+                .views-field.views-field-title{
+                    margin-top: 29px;
+                }
+            }
+            @media (max-width:950px) {
+                .views-col{
+                    width: 48% !important;
+                    margin-bottom: 20px;
+                }
+            }
+            @media (max-width:520px) {
+                .views-col{
+                    width: 98% !important;
+                }
+            }
+            .views-field.views-field-title{
+                margin-top: 32px;
+                a{
+                    font-size: 22px;
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+            .views-field-field-sevices-subtitle{
+                font-size: 0.75rem;
+                padding: 8px 19px 0;
+                color: #CCCCCC;
+            }
+            .views-field-view-node{
+                margin-top: 21px;
+                span{
+                    display: block;
+                    background-color: #6e9bca;
+                    width: 98px;
+                    margin: 0 auto;
+                    padding: 3px 0;
+                    border-radius: 3px;
+                    a{
+                        font-size: 14px;
+                        text-decoration: none;
+                        color: #fff;
+                        padding: 7px 11px;
+                    }
+                }
+            }
+        }
+    }
+}

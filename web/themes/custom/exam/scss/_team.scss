@@ -1,0 +1,118 @@
+.block-views-blockview-team-block-1{
+    text-transform: uppercase;
+    margin-top: 106px;
+    margin-bottom: 110px;
+    font-family: 'Avenir LT Pro';
+    &>h2{
+        @include alingnment;
+        width: 98%;
+        text-align: center;
+        font-size: 1.75rem;
+        display: flex;
+        gap: 14px;
+        margin-bottom: 34px;
+        &::before,
+        &::after{
+            @include line-title;
+            width: 43%;
+
+        }
+    }
+    .view-view-team{
+        @include alingnment;
+        a{
+            text-decoration: none;
+        }
+        .view-content{
+            text-align: center;
+            .views-field-field-team-image{
+                a img{
+                    width: 290px;
+                    height: 290px;
+                    -webkit-filter: grayscale(100%);
+                    filter: grayscale(100%);
+                    -webkit-transition: .3s ease-in-out;
+                    transition: .3s ease-in-out;
+                    &:hover{
+                        -webkit-filter: grayscale(0);
+                        filter: grayscale(0);
+                    }
+                }
+            }
+            .views-field.views-field-title{
+                margin-top: 32px;
+                a{
+                    font-size: 25px;
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+            .views-field.views-field-term-node-tid{
+                font-size: 0.75rem;
+                a{
+                    color: #CCCCCC;
+                }
+            }
+            .views-field-view-node{
+                margin-top: 9px;
+                span{
+                    display: inline-block;
+                    background-color: #373645;
+                    padding: 3px 0;
+                    border-radius: 3px;
+                    a{
+                        color: #fff;
+                        padding: 0 8px;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .views-field-addtoany-share{
+                display: block;
+                text-align: left;
+                float: left;
+                padding-left: 30px;
+                padding-top: 19px;
+                .field-content{
+                    .addtoany_list > a {
+                        padding: 0 5px;
+                    }
+                }
+            }
+            .views-field-link-flag{
+                .flag.flag-like{
+                    padding-top: 24px;
+                    a{
+                        //color: #B2B2B3;
+                        color: #E84C3D;
+                        padding-left: 100px;
+                    }
+                }
+                .js-flag-message{
+                    display: none;
+                }
+            }
+            @media (max-width:1098px) {
+                .views-col{
+                    width: 48% !important;
+                    margin-bottom: 20px;
+                }
+                .views-field-addtoany-share{
+                    padding-left: 115px;
+                }
+                .views-field-link-flag{
+                    .flag.flag-like{
+                        a{
+                            padding-left: 30px;
+                        }
+                    }
+                }
+            }
+            @media (max-width:520px) {
+                .views-col{
+                    width: 98% !important;
+                }
+            }
+        }
+    }
+}

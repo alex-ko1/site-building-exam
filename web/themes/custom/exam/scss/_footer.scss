@@ -1,0 +1,20 @@
+footer.mt-auto.footer-.text-dark.bg-{
+    padding: 0;
+    background-color:#373645;
+    &>div:first-child{
+        @include alingnment;
+    }
+    .region-footer{
+        padding: 0;
+        #block-customfooter{
+            display: flex;
+            justify-content: space-between;
+            &>span{
+                margin: auto 0;
+            }
+            .field--name-field-footer-logo{
+                padding: 20px 0;
+            }
+        }
+    }
+}

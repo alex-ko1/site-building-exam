@@ -1,0 +1,30 @@
+body.page-node-type-contact{
+    main div.row{
+        font-family: 'Avenir LT Pro';
+        .block.block-core.block-page-title-block{
+            h1{
+                text-transform: uppercase;
+                font-size: 2rem;
+                span{
+                    margin-left: -100px;
+                }
+            }
+        }
+        .node__content{
+            display: flex;
+            gap: 30px;
+            .field--name-body.field--type-text-with-summary{
+                font-family: 'Spline Sans';
+                h3{
+                    margin-top: 1rem;
+                }
+                p{
+                    margin-bottom: 0;
+                }
+                p:nth-child(6){
+                    margin-top: 28px;
+                }
+            }
+        }
+    }
+}

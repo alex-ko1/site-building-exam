@@ -1,0 +1,20 @@
+@mixin line-title {
+    content: " ";
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto 0;
+}
+@mixin alingnment {
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    @media (max-width:1250px) {
+        width: 100vw;
+    }
+}
+@mixin alingnment-adaptive {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
